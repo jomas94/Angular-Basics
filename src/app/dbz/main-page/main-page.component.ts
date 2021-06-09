@@ -11,8 +11,9 @@ import { DbzService } from '../services/dbz.services';
 export class MainPageComponent  {
 
   nuevo:Personaje = {
-    nombre:'Kakashi',
-    poder: 1000
+
+    nombre: '',
+    poder: 0
   }
 
   constructor( private DbzService:DbzService){}
